@@ -5,7 +5,7 @@ let cars = ['volvo', 'saab', 'bmw', 'tesla'];
 
 for (const car in cars) {
     console.log(cars[car]);
-}
+};
 
 //Uppgift 2
 let cars = ['volvo', 'saab', 'bmw', 'tesla'];
@@ -29,5 +29,5 @@ printArray(flowers);
 //Funktionen fick nytt namn printArray och även en forEach ist för for loop.
 function printArray(array) {
    array.forEach(element => console.log(element)); 
-}
+};
 
